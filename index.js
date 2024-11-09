@@ -5,7 +5,7 @@ function quote()
 
     var quote = "";
 
-    var quoteSelection = (Math.floor(Math.random() * 30) + 1);
+    var quoteSelection = (Math.floor(Math.random() * 50) + 1);
     console.log(quoteSelection);
 
     if(quoteSelection == 1)
@@ -28,8 +28,48 @@ function quote()
         {
             quote = '"If you are right, then you are not wrong :o"'
         }
+    if(quoteSelection == 6)
+        {
+            quote = '"Rubber ducks are just ducks, but rubber :)"';
+        }
+    if(quoteSelection == 7)
+        {
+            quote = '"If you cross first, you are in first :p"';
+        }
+    if(quoteSelection == 8)
+        {
+            quote = '"The present is happening, like, right now :o"';
+        }
+    if(quoteSelection == 9)
+        {
+            quote = '"Debug, more like, freebug :p"';
+        }
+    if(quoteSelection == 10)
+        {
+            quote = '"If I have one wish, I would wish for a wish :]"';
+        }
+    if(quoteSelection == 11)
+        {
+            quote = '"Exception error, more like, dumb error >:("';
+        }
+    if(quoteSelection == 12)
+        {
+            quote = '"Cookies taste pretty good... c:"';
+        }
+    if(quoteSelection == 13)
+        {
+            quote = '"Free stuff is the best stuff (sometimes) :)"';
+        }
+    if(quoteSelection == 14)
+        {
+            quote = '"Water tastes like water :p"';
+        }
+    if(quoteSelection == 15)
+        {
+            quote = '"Money-- :c"';
+        }
 
 
-
+        
     document.getElementById("insertQuote").innerHTML = quote;
 }
