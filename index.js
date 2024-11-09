@@ -207,7 +207,7 @@ function quote()
         {
             quote = '"Goofing off is amazinggg :D"';
         }
-    if(quoteSelection = 50)
+    if(quoteSelection == 50)
         {
             quote = '"What if dinosaurs came flying down right now :D"';
         }
@@ -236,6 +236,10 @@ function quote()
     if(quoteCounter == 1000)
         {
             document.getElementById("actualLastSecret").style.visibility = "visible";
+        }
+    if(quoteCounter == 10000)
+        {
+            document.getElementById("noWay").style.visibility = "visible";
         }
     document.getElementById("insertQuote").innerHTML = quote;
     document.getElementById("counter").innerHTML = quoteCounter;
