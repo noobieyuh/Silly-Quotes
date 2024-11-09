@@ -111,7 +111,26 @@ function quote()
         {
             quote = '"Turtles might take over the world :o"';
         }
-    
+    if(quoteSelection == 26)
+        {
+            quote = '"Coding is super duper fun :D"';
+        }
+    if(quoteSelection == 27)
+        {
+            quote = '"2 cookies is better than 1 cookie :p"';
+        }
+    if(quoteSelection == 28)
+        {
+            quote = '"Sadness is being sad :("';
+        }
+    if(quoteSelection == 29)
+        {
+            quote = '"Notebook paper has a lot of lines just like my code :D"';
+        }
+    if(quoteSelection == 30)
+        {
+            quote = '"Free time is the best time :)"';
+        }
 
     quoteCounter += 1;
     document.getElementById("insertQuote").innerHTML = quote;
