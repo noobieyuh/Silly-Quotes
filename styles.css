@@ -68,3 +68,8 @@ p
     border-radius: 10px;
     align-content: center;
 }
+
+.hidden
+{
+    visibility: hidden;
+}

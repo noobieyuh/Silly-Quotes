@@ -153,6 +153,18 @@ function quote()
         }
 
     quoteCounter += 1;
+    if(quoteCounter == 100)
+        {
+            document.getElementById("firstSecret").style.visibility = "visible";
+        }
+    if(quoteCounter == 200)
+        {
+            document.getElementById("secondSecret").style.visibility = "visible";
+        }
+    if(quoteCounter == 300)
+        {
+            DocumentFragment.getElementById("thirdSecret").style.visibility = "visible";
+        }
     document.getElementById("insertQuote").innerHTML = quote;
     document.getElementById("counter").innerHTML = quoteCounter;
     cheerSound.play();
