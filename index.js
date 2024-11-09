@@ -1,3 +1,6 @@
+var quoteCounter = 0;
+var cheerSound = new Audio("cheer.wav");
+
 function quote()
 {
     var clickSound = new Audio("click.wav");
@@ -68,8 +71,50 @@ function quote()
         {
             quote = '"Money-- :c"';
         }
+    if(quoteSelection == 16)
+        {
+            quote = '"Javascript is just Java + script :o"';
+        }
+    if(quoteSelection == 17)
+        {
+            quote = '"C++ just C with a few pluses :]"';
+        }
+    if(quoteSelection == 18)
+        {
+            quote = '"The moon looks like a banana :p"';
+        }
+    if(quoteSelection == 19)
+        {
+            quote = '"Java sounds yummy c:"';
+        }
+    if(quoteSelection == 20)
+        {
+            quote = '"Stars look really really pretty c:"';
+        }
+    if(quoteSelection == 21)
+        {
+            quote = '"I look up and the sun always shines on my face and it hurts :("';
+        }
+    if(quoteSelection == 22)
+        {
+            quote = '"Quotes are just quotes within quotes :D"';
+        }
+    if(quoteSelection == 23)
+        {
+            quote = '"Pythons are scary :c"';
+        }
+    if(quoteSelection == 24)
+        {
+            quote = '"I love pi and pies :D"';
+        }
+    if(quoteSelection == 25)
+        {
+            quote = '"Turtles might take over the world :o"';
+        }
+    
 
-
-        
+    quoteCounter += 1;
     document.getElementById("insertQuote").innerHTML = quote;
+    document.getElementById("counter").innerHTML = quoteCounter;
+    cheerSound.play();
 }
