@@ -171,9 +171,46 @@ function quote()
         {
             quote = '"Coding is the best hobby :]"';
         }
-
-
-
+    if(quoteSelection == 41)
+        {
+            quote = '"Mochi is so gooddd c:"';
+        }
+    if(quoteSelection == 42)
+        {
+            quote = '"Easter eggs are awesome :p"';
+        }
+    if(quoteSelection == 43)
+        {
+            quote = '"Squishy things are so squishy :D"';
+        }
+    if(quoteSelection == 44)
+        {
+            quote = '"Trees stand tall, me too :p"';
+        }
+    if(quoteSelection == 45)
+        {
+            quote = '"Funny quote is pretty funny hehe c:"';
+        }
+    if(quoteSelection == 46)
+        {
+            quote = '"Ducks love to quack :D"';
+        }
+    if(quoteSelection == 47)
+        {
+            quote = '"Silly things make things sillier c:"';
+        }
+    if(quoteSelection == 48)
+        {
+            quote = '"I wish for copy and paste to work outside of technology :("';
+        }
+    if(quoteSelection == 49)
+        {
+            quote = '"Goofing off is amazinggg :D"';
+        }
+    if(quoteSelection = 50)
+        {
+            quote = '"What if dinosaurs came flying down right now :D"';
+        }
 
     quoteCounter += 1;
     if(quoteCounter == 100)
@@ -195,6 +232,10 @@ function quote()
     if(quoteCounter == 500)
         {
             document.getElementById("lastSecret").style.visibility = "visible";
+        }
+    if(quoteCounter == 1000)
+        {
+            document.getElementById("actualLastSecret").style.visibility = "visible";
         }
     document.getElementById("insertQuote").innerHTML = quote;
     document.getElementById("counter").innerHTML = quoteCounter;
