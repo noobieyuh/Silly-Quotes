@@ -131,6 +131,26 @@ function quote()
         {
             quote = '"Free time is the best time :)"';
         }
+    if(quoteSelection == 31)
+        {
+            quote = '"Code brings a smile to many faces :]"';
+        }
+    if(quoteSelection == 32)
+        {
+            quote = '"I love chewy soft gummies :D"';
+        }
+    if(quoteSelection == 33)
+        {
+            quote = '"Coding is pretty art c:"';
+        }
+    if(quoteSelection == 34)
+        {
+            quote = '"Having fun while coding is the best :)"';
+        }
+    if(quoteSelection == 35)
+        {
+            quote = '"Fireflies are like flies with fire inside of them :p"';
+        }
 
     quoteCounter += 1;
     document.getElementById("insertQuote").innerHTML = quote;
