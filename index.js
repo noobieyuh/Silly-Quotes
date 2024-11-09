@@ -151,6 +151,29 @@ function quote()
         {
             quote = '"Fireflies are like flies with fire inside of them :p"';
         }
+    if(quoteSelection == 36)
+        {
+            quote = '"Visual Studio Code, more like, best IDE ever :D"';
+        }
+    if(quoteSelection == 37)
+        {
+            quote = '"Mirrors are interesting c:"';
+        }
+    if(quoteSelection == 38)
+        {
+            quote = '"Coconut trees look so nice :D"';
+        }
+    if(quoteSelection == 39)
+        {
+            quote = '"The sounds of nature are so beautiful... c:"';
+        }
+    if(quoteSelection == 40)
+        {
+            quote = '"Coding is the best hobby :]"';
+        }
+
+
+
 
     quoteCounter += 1;
     if(quoteCounter == 100)
@@ -163,7 +186,15 @@ function quote()
         }
     if(quoteCounter == 300)
         {
-            DocumentFragment.getElementById("thirdSecret").style.visibility = "visible";
+            document.getElementById("thirdSecret").style.visibility = "visible";
+        }
+    if(quoteCounter == 400)
+        {
+            document.getElementById("fourthSecret").style.visibility = "visible";
+        }
+    if(quoteCounter == 500)
+        {
+            document.getElementById("lastSecret").style.visibility = "visible";
         }
     document.getElementById("insertQuote").innerHTML = quote;
     document.getElementById("counter").innerHTML = quoteCounter;
