@@ -5,7 +5,7 @@ function quote()
 
     var quote = "";
 
-    var quoteSelection = (Math.floor(Math.random() * 10) + 1);
+    var quoteSelection = (Math.floor(Math.random() * 30) + 1);
     console.log(quoteSelection);
 
     if(quoteSelection == 1)
