@@ -8,3 +8,5 @@ It's really simple, you click the button to receive one of my (awesome) quotes!
 
 ## How do I get there?
 Click on the website to try and see my silly quotes! :D
+
+https://noobieyuh.github.io/Silly-Quotes/
