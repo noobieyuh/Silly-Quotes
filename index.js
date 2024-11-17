@@ -6,7 +6,7 @@ function quote()
     var clickSound = new Audio("click.wav");
     clickSound.play();
     var quote = "";
-    var quoteSelection = (Math.floor(Math.random() * 100) + 1);
+    var quoteSelection = (Math.floor(Math.random() * 200) + 1);
     console.log(quoteSelection);
 
     if(quoteSelection == 1)
@@ -409,8 +409,408 @@ function quote()
         {
             quote = quoteSelection + ': "Sparkles look so pretty and shiny c:"';
         }
-
+    if(quoteSelection == 101)
+        {
+            quote = quoteSelection + ': "While true loops are funny :p"';
+        }
+    if(quoteSelection == 102)
+        {
+            quote = quoteSelection + ': "A break statement is just like a stop sign :D"';
+        }
+    if(quoteSelection == 103)
+        {
+            quote = quoteSelection + ': "Computer science more like awesome science c:"';
+        }
+    if(quoteSelection == 104)
+        {
+            quote = quoteSelection + ': "Code, code, code :o"';
+        }
+    if(quoteSelection == 105)
+        {
+            quote = quoteSelection + ': "Roses are red, violets are blue, something something coding is for you c:"';
+        }
+    if(quoteSelection == 106)
+        {
+            quote = quoteSelection + ': "Is it a mouse or mice :o"';
+        }
+    if(quoteSelection == 107)
+        {
+            quote = quoteSelection + ': "Prettier makes it pretty :D"';
+        }
+    if(quoteSelection == 108)
+        {
+            quote = quoteSelection + ': "Private variables more like secret variables :)"';
+        }
+    if(quoteSelection == 109)
+        {
+            quote = quoteSelection + ': "Public variables more like being in public :D"';
+        }
+    if(quoteSelection == 110)
+        {
+            quote = quoteSelection + ': "USB more like square cable :p"';
+        }
+    if(quoteSelection == 111)
+        {
+            quote = quoteSelection + ': "Control S is life changing :D"';
+        }
+    if(quoteSelection == 112)
+        {
+            quote = quoteSelection + ': "To code, or not to code :D"';
+        }
+    if(quoteSelection == 113)
+        {
+            quote = quoteSelection + ': "Bongo cat yay c:"';
+        }
+    if(quoteSelection == 114)
+        {
+            quote = quoteSelection + ': "Themes are the best :]"';
+        }
+    if(quoteSelection == 115)
+        {
+            quote = quoteSelection + ': "Words per minutes more like words per every sometimes :p"';
+        }
+    if(quoteSelection == 116)
+        {
+            quote = quoteSelection + ': "I love money :D"';
+        }
+    if(quoteSelection == 117)
+        {
+            quote = quoteSelection + ': "Staplers can staple :p"';
+        }
+    if(quoteSelection == 118)
+        {
+            quote = quoteSelection + ': "Coffee keeps the programmer happy :D"';
+        }
+    if(quoteSelection == 119)
+        {
+            quote = quoteSelection + ': "Ice cubes are cold :p"';
+        }
+    if(quoteSelection == 120)
+        {
+            quote = quoteSelection + ': "Hot is the opposite of cold :D"';
+        }
+    if(quoteSelection == 121)
+        {
+            quote = quoteSelection + ': "Phoney phone phone :["';
+        }
+    if(quoteSelection == 122)
+        {
+            quote = quoteSelection + ': "Smart more like not dumb :D"';
+        }
+    if(quoteSelection == 123)
+        {
+            quote = quoteSelection + ': "The merge button is awesome :D"';
+        }
+    if(quoteSelection == 124)
+        {
+            quote = quoteSelection + ': "Glitches are features c:"';
+        }
+    if(quoteSelection == 125)
+        {
+            quote = quoteSelection + ': "Update more like cool stuff :D"';
+        }
+    if(quoteSelection == 126)
+        {
+            quote = quoteSelection + ': "Designers are so cool c:"';
+        }
+    if(quoteSelection == 127)
+        {
+            quote = quoteSelection + ': "Social media is very social :p"';
+        }
+    if(quoteSelection == 128)
+        {
+            quote = quoteSelection + ': "Coding is a great way to pass the time c:"';
+        }
+    if(quoteSelection == 129)
+        {
+            quote = quoteSelection + ': "Sunglasses make you look cool :D"';
+        }
+    if(quoteSelection == 130)
+        {
+            quote = quoteSelection + ': "The sun can make you blind :c"';
+        }
+    if(quoteSelection == 131)
+        {
+            quote = quoteSelection + ': "The moon is so so so pretty :D"';
+        }
+    if(quoteSelection == 132)
+        {
+            quote = quoteSelection + ': "Powertools are so scary :o"';
+        }
+    if(quoteSelection == 133)
+        {
+            quote = quoteSelection + ': "Funny laughs make me laugh :D"';
+        }
+    if(quoteSelection == 134)
+        {
+            quote = quoteSelection + ': "Remember the golden rule c:"';
+        }
+    if(quoteSelection == 135)
+        {
+            quote = quoteSelection + ': "Inspect element is silly :D"';
+        }
+    if(quoteSelection == 136)
+        {
+            quote = quoteSelection + ': "Board games are not boring :D"';
+        }
+    if(quoteSelection == 137)
+        {
+            quote = quoteSelection + ': "Rainy days with headphones are amazing c:"';
+        }
+    if(quoteSelection == 138)
+        {
+            quote = quoteSelection + ': "Winter season is the best time to code :D"';
+        }
+    if(quoteSelection == 139)
+        {
+            quote = quoteSelection + ': "Busy work is work that is busy :c"';
+        }
+    if(quoteSelection == 140)
+        {
+            quote = quoteSelection + ': "Finals are so stressful :["';
+        }
+    if(quoteSelection == 141)
+        {
+            quote = quoteSelection + ': "Giving homework on a Friday is a crime :c"';
+        }
+    if(quoteSelection == 142)
+        {
+            quote = quoteSelection + ': "Waiting till the end is a bad idea :c"';
+        }
+    if(quoteSelection == 143)
+        {
+            quote = quoteSelection + ': "Full send always :D"';
+        }
+    if(quoteSelection == 144)
+        {
+            quote = quoteSelection + ': "Playing around is the best way to learn :D"';
+        }
+    if(quoteSelection == 145)
+        {
+            quote = quoteSelection + ': "No time like the present :p"';
+        }
+    if(quoteSelection == 146)
+        {
+            quote = quoteSelection + ': "Can a coder code code :o"';
+        }
+    if(quoteSelection == 147)
+        {
+            quote = quoteSelection + ': "Can a music artist code :o"';
+        }
+    if(quoteSelection == 148)
+        {
+            quote = quoteSelection + ': "Can a cat write code :p"';
+        }
+    if(quoteSelection == 149)
+        {
+            quote = quoteSelection + ': "Could a dog write code :p"';
+        }
+    if(quoteSelection == 150)
+        {
+            quote = quoteSelection + ': "Chargers can charge :D"';
+        }
+    if(quoteSelection == 151)
+        {
+            quote = quoteSelection + ': "Open source is awesome c:"';
+        }
+    if(quoteSelection == 152)
+        {
+            quote = quoteSelection + ': "Fruit snacks are yummy :D"';
+        }
+    if(quoteSelection == 153)
+        {
+            quote = quoteSelection + ': "Drawing is cool :D"';
+        }
+    if(quoteSelection == 154)
+        {
+            quote = quoteSelection + ': "Seconds are just small minutes c:"';
+        }
+    if(quoteSelection == 155)
+        {
+            quote = quoteSelection + ': "Being lucky is a skill c:"';;
+        }
+    if(quoteSelection == 156)
+        {
+            quote = quoteSelection + ': "Jelly donuts taste like jelly :o"';
+        }
+    if(quoteSelection == 157)
+        {
+            quote = quoteSelection + ': "Coding can sometimes make you cry :c"';
+        }
+    if(quoteSelection == 158)
+        {
+            quote = quoteSelection + ': "A T-shirt is a shirt with a T on it :D"';
+        }
+    if(quoteSelection == 159)
+        {
+            quote = quoteSelection + ': "Carmel apples are so good :D"';
+        }
+    if(quoteSelection == 160)
+        {
+            quote = quoteSelection + ': "Screens are just 1s and 0s :o"';
+        }
+    if(quoteSelection == 161)
+        {
+            quote = quoteSelection + ': "USB killer more like USB murderer :o"';
+        }
+    if(quoteSelection == 162)
+        {
+            quote = quoteSelection + ': "I am thankful for coding :D"';
+        }
+    if(quoteSelection == 163)
+        {
+            quote = quoteSelection + ': "Coding is the best gift :D"';
+        }
+    if(quoteSelection == 164)
+        {
+            quote = quoteSelection + ': "A lot of code can happen in a day c:"';
+        }
+    if(quoteSelection == 165)
+        {
+            quote = quoteSelection + ': "Code rhymes with mode :o"';
+        }
+    if(quoteSelection == 166)
+        {
+            quote = quoteSelection + ': "Quoting a quote means you are quoting a quote :D"';
+        }
+    if(quoteSelection == 167)
+        {
+            quote = quoteSelection + ': "Coding projects are amazing c:"';
+        }
+    if(quoteSelection == 168)
+        {
+            quote = quoteSelection + ': "Art is art, code is code, art is code :D"';
+        }
+    if(quoteSelection == 169)
+        {
+            quote = quoteSelection + ': "Having fun is so much fun :D"';
+        }
+    if(quoteSelection == 170)
+        {
+            quote = quoteSelection + ': "Sleeping is just closing your eyes for a while :o"';
+        }
+    if(quoteSelection == 171)
+        {
+            quote = quoteSelection + ': "You cannot fix perfection :D"';
+        }
+    if(quoteSelection == 172)
+        {
+            quote = quoteSelection + ': "Being angry is just being mad :o"';
+        }
+    if(quoteSelection == 173)
+        {
+            quote = quoteSelection + ': "Imagine talking in 1s and 0s :o"';
+        }
+    if(quoteSelection == 174)
+        {
+            quote = quoteSelection + ': "Repetition is sometimes good :D"';
+        }
+    if(quoteSelection == 175)
+        {
+            quote = quoteSelection + ': "Friends are awesome :D"';
+        }
+    if(quoteSelection == 176)
+        {
+            quote = quoteSelection + ': "Heat is hot :o"';
+        }
+    if(quoteSelection == 177)
+        {
+            quote = quoteSelection + ': "Cold is kind of cold :o"';
+        }
+    if(quoteSelection == 178)
+        {
+            quote = quoteSelection + ': "Everything can be for parts :D"';
+        }
+    if(quoteSelection == 179)
+        {
+            quote = quoteSelection + ': "Bags can carry more bags :o"';
+        }
+    if(quoteSelection == 180)
+        {
+            quote = quoteSelection + ': "8 hours means nothing :c"';
+        }
+    if(quoteSelection == 181)
+        {
+            quote = quoteSelection + ': "Coding requires a lot of thinking :c"';
+        }
+    if(quoteSelection == 182)
+        {
+            quote = quoteSelection + ': "Gulp :c"';
+        }
+    if(quoteSelection == 183)
+        {
+            quote = quoteSelection + ': "Errors can be one of the worst, or best thing that could have happened :c"';
+        }
+    if(quoteSelection == 184)
+        {
+            quote = quoteSelection + ': "Numbers are just letters but not :p"';
+        }
+    if(quoteSelection == 185)
+        {
+            quote = quoteSelection + ': "Imagine if code was a person :o"';
+        }
+    if(quoteSelection == 186)
+        {
+            quote = quoteSelection + ': "Can IDEs turn on us :o"';
+        }
+    if(quoteSelection == 187)
+        {
+            quote = quoteSelection + ': "Funny bones are funny :D"';
+        }
+    if(quoteSelection == 188)
+        {
+            quote = quoteSelection + ': "Giveaways are awesome :D"';
+        }
+    if(quoteSelection == 189)
+        {
+            quote = quoteSelection + ': "CLI is cool but strange :p"';
+        }
+    if(quoteSelection == 190)
+        {
+            quote = quoteSelection + ': "Parrots are cooler birds :D"';
+        }
+    if(quoteSelection == 191)
+        {
+            quote = quoteSelection + ': "Fireworks are so pretty :D"';
+        }
+    if(quoteSelection == 192)
+        {
+            quote = quoteSelection + ': "Forgetting to save is the worst :c"';
+        }
+    if(quoteSelection == 193)
+        {
+            quote = quoteSelection + ': "So many coding languages :D"';
+        }
+    if(quoteSelection == 194)
+        {
+            quote = quoteSelection + ': "Coding spirit :D"';
+        }
+    if(quoteSelection == 195)
+        {
+            quote = quoteSelection + ': "The world is pretty cool :D"';
+        }
+    if(quoteSelection == 196)
+        {
+            quote = quoteSelection + ': "Stuttering is the worst :c"';
+        }
+    if(quoteSelection == 197)
+        {
+            quote = quoteSelection + ': "Is rainbow a color or multiple colors :o"';
+        }
+    if(quoteSelection == 198)
+        {
+            quote = quoteSelection + ': "Look, a shooting star :o"';
+        }
+    if(quoteSelection == 199)
+        {
+            quote = quoteSelection + ': "Code the code to code the code :D"';
+        }
+    if(quoteSelection == 200)
+        {
+            quote = quoteSelection + ': "24 hour time is like 12 hour but times 2 :o"';
+        }
     quoteCounter += 1;
+    
     if(quoteCounter == 100)
         {
             document.getElementById("firstSecret").style.visibility = "visible";
